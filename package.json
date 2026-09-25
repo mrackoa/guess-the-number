@@ -1,0 +1,46 @@
+{
+  "name": "guess-the-number",
+  "version": "1.0.0",
+  "description": "Guess the Number game",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "jest",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
+    "diff": "cdk diff",
+    "destroy": "cdk destroy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrackoa/guess-the-number.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrackoa/guess-the-number/issues"
+  },
+  "homepage": "https://github.com/mrackoa/guess-the-number#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.163",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.6.2",
+    "aws-cdk": "^2.1142.0",
+    "aws-cdk-lib": "^2.270.0",
+    "aws-sdk-client-mock": "^4.1.0",
+    "aws-sdk-client-mock-jest": "^4.1.0",
+    "constructs": "^10.8.1",
+    "esbuild": "^0.28.2",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.12",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1137.0",
+    "@aws-sdk/lib-dynamodb": "^3.1139.0",
+    "zod": "^4.6.5"
+  }
+}

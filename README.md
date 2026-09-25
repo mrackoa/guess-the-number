@@ -52,3 +52,7 @@ curl -X POST <ApiUrl>/guess \
 ```bash
 npx cdk destroy
 ```
+
+## Production
+
+See [PRODUCTION_NOTES.md](PRODUCTION_NOTES.md) for ideas on running this in production (security, observability, availability, CI/CD).
